@@ -1,0 +1,167 @@
+body{
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+nav{
+	background-color: white;
+	margin: 0;
+}
+
+
+#tamImg{
+	width: 170px;
+	height: auto;
+}
+
+#ancho{
+	margin-top: 2%;
+	width:950px;
+	align-content: center;
+}
+
+#redondo {
+  border-color: #5EAADC;
+  border-width: 1px;
+  border-style: dotted;
+  border-radius: 35px;
+}
+
+#div1{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	height: 65px;
+}
+#div2{
+	color: gray;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	height: 65px;
+}
+
+#margenCuadro{
+	padding: 20px;
+}
+
+#galeria.col-lg-4{
+	margin:0 !important;
+	padding: 25px;
+}
+#galeria img{
+	width: 100%;
+	height: auto;
+}
+
+#imgAliados{
+	float: left;
+
+}
+
+/*fuente encabezado*/
+#hs{
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #0CB0D4;
+	}
+
+	
+.pagina{
+	margin-left: 0%;
+}
+
+/*linktabs*/
+.content {
+	margin-top: 2rem;
+}
+
+[data-content] {
+	display: none;
+}
+
+.active[data-content] {
+	display: block;
+}
+
+
+
+
+/*GRID RESPONSIVE*/
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.contenedor > div {
+	display: block;
+	padding: 20px;
+	color: #fff;
+
+}
+
+/*Que hacemos parte 2*/
+.contenedor1{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.contenedor1 > div {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	color: black;
+	text-align: left;
+}
+
+
+/*que hacemos requisitos*/
+.contenedor2{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.contenedor2 > div {
+	display: block;
+	padding: 20px;
+	color: #fff;
+}
+
+
+/*senior bloque 1 y 2*/
+.contenedor3{
+	width: 90%;
+	max-width: 1200px;margin: auto;
+}
+
+.contenedor3 > div {
+	display: block;
+	padding: 20px;
+	color: #fff;
+}
+
+/*senior bloque 2*/
+.contenedor4{
+	width: 90%;
+	max-width: 1200px;margin: auto;
+}
+
+.contenedor4 > div {
+	display: block;
+	padding: 20px;
+	color: #fff;
+}
+
+.contenedor6{
+	width: 90%;
+	max-width: 1200px;margin: auto;
+}
+
+.contenedor6 > div {
+	display: block;
+	color: #fff;
+}

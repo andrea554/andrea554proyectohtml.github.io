@@ -1,0 +1,105 @@
+.contenedor{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 16px;
+	font-size: 14.5px;
+}
+
+@media screen and (max-width: 1070px){
+	.contenedor{
+		grid-template-columns: 1fr;
+		grid-gap: 16px;
+		font-size: 13.7px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.contenedor{
+		grid-template-columns: 1fr;
+		grid-gap: 16px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.contenedor{
+		grid-template-columns: 1fr;
+		grid-gap: 16px;
+		font-size: 11.3px;
+	}
+}
+
+
+/*Quienes somos requisitos*/
+.contenedor2{
+	font-size: 16px;
+}
+
+/*SENIOR'S DAY, tias*/
+.contenedor3{
+	font-size: 14.5px;
+}
+
+.arriba{
+	padding-top: 40px;
+}
+
+
+/*FOOTER*/
+.contenedor5{
+	font-size: 16px;
+}
+
+/*INICIO*/
+
+.contenedor6{
+	font-size: 14px;
+}
+
+
+  
+@media all and (max-width: 1170px){
+	.contenedor2{
+		font-size: 13.8px;
+	}
+	.contenedor3{
+		font-size: 13.3px;
+	}
+	.arriba{
+		padding-top: 0.5px;
+	}
+	.contenedor5{
+		font-size: 14px;
+	}
+	.contenedor6{
+		font-size: 13.8px;
+	}
+
+@media all and (max-width: 1007px) and (min-width: 500px){
+	.contenedor2{
+		font-size: 12px;
+	}
+	.contenedor3{
+		font-size: 12.8px;
+	}
+	.contendor5{
+		font-size: 9px;
+	}
+	.contenedor6{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 200px){
+	.contenedor2{
+		font-size: 11.2px
+	}
+	.contenedor5{
+		font-size: 11px;
+	}
+	.contenedor6{
+		font-size: 11.2px
+	}
+}
+
+
